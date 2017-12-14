@@ -7,7 +7,8 @@ Given a graph with non-negative edge weights, a source vertex **S** and a target
 **But why don't we just use Dijkstra's Algorithm to solve the problem?**
 > *0(E + VlogV)* is the worst case time complexity of the Dijkstra's Algorithm which is pretty fast. But, for a graph with 20million vertices and 50million edges, it will work for several seconds on average. So, we need something significantly faster.
 
-** Before we go into the details of Bidirectional Search, let us explore the concept of *"Six Degrees of Separation"* **
+**Before we go into the details of Bidirectional Search, let us explore the concept of *"Six Degrees of Separation"* **
+
 > - In 1929, a Hungarian author, Frigyes Karinthy for the first time proposed the concept of *"Six Degrees of Separation"* in his short story Chains.
 > - Six degrees of separation is the idea that all living things and everything else in the world are six or fewer steps away from each other.
 
