@@ -2,7 +2,7 @@ Bi-Directional Dijkstra
 ===================
 Problem
 --------------
-Given a graph with non-negative edge weights, a source vertex **S** and a target vertec **T**. Find the shortest path between **S** and **T**
+Given a graph with non-negative edge weights, a source vertex **S** and a target vertec **T**. Find the shortest path between **S** and **T*
 
 **But why don't we just use Dijkstra's Algorithm to solve the problem?**
 > *0(E + VlogV)* is the worst case time complexity of the Dijkstra's Algorithm which is pretty fast. But, for a graph with 20million vertices and 50million edges, it will work for several seconds on average. So, we need something significantly faster.
